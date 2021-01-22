@@ -17,7 +17,8 @@ randomColors="$(tput setaf `shuf -i 1-9 -n 1`)"
 reset="$(tput sgr0)"
 
 
-host="$(hostname)"
+# Information
+host="$(cat /etc/hostname)"
 os="Fedora"
 kernel="$(uname -sr)"
 shell="$(basename ${SHELL})"
