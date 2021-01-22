@@ -16,7 +16,7 @@ white="$(tput setaf 7)"
 randomColors="$(tput setaf `shuf -i 1-9 -n 1`)"
 reset="$(tput sgr0)"
 
-
+# Information
 host="$(cat /etc/hostname)"
 os="Arch Linux"
 kernel="$(uname -sr)"
