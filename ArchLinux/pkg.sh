@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pacman -S linux-headers --noconfirm
+pacman -S linux-headers gvfs-mtp --noconfirm
 
 pacman -S gnome-tweaks plank firefox wget curl git nano virtualbox --noconfirm
 
