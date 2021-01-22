@@ -17,7 +17,7 @@ randomColors="$(tput setaf `shuf -i 1-9 -n 1`)"
 reset="$(tput sgr0)"
 
 
-host="$(hostname)"
+host="$(cat /etc/hostname)"
 os="Arch Linux"
 kernel="$(uname -sr)"
 shell="$(basename ${SHELL})"
